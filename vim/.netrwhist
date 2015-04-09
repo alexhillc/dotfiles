@@ -1,9 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/justin/Desktop'
-let g:netrw_dirhist_2='/Users/justin/Desktop/hubot'
-let g:netrw_dirhist_3='/Users/justin/Development/Frankly/localize/en.lproj'
-let g:netrw_dirhist_4='/Users/justin/Development/Anghami/ar.lproj'
-let g:netrw_dirhist_5='/Users/justin/Development/anghami/.git/modules/Branch'
-let g:netrw_dirhist_6='/Users/justin/Development/anghami/.git/modules/Branch/branches'
-let g:netrw_dirhist_7='/Users/justin/Desktop/shairport'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/alex/gfs/trunk/ecomIntegration/.svn'
+let g:netrw_dirhist_2='/Users/alex/gfs/trunk/distribution/distribution-ear'
+let g:netrw_dirhist_3='/Users/alex/gfs/trunk/distribution/doc/distributionCommon/src/main/resources/jasper'
+let g:netrw_dirhist_4='/Users/alex'
+let g:netrw_dirhist_5='/Users/alex/Dropbox/Scripts/OSXSetup'
