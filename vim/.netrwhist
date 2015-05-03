@@ -1,7 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/alex/gfs/trunk/ecomIntegration/.svn'
-let g:netrw_dirhist_2='/Users/alex/gfs/trunk/distribution/distribution-ear'
-let g:netrw_dirhist_3='/Users/alex/gfs/trunk/distribution/doc/distributionCommon/src/main/resources/jasper'
-let g:netrw_dirhist_4='/Users/alex'
-let g:netrw_dirhist_5='/Users/alex/Dropbox/Scripts/OSXSetup'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/alex/.dotfiles'
+let g:netrw_dirhist_2='/Users/alex/.dotfiles/vim'

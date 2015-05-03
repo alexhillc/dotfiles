@@ -22,9 +22,9 @@ set hlsearch
 set incsearch
 
 " Tab width
+set expandtab
 set tabstop=4
 set shiftwidth=4
-set noexpandtab
 
 " No line wrapping
 set nowrap
@@ -56,7 +56,9 @@ set splitbelow
 filetype plugin indent on
 
 " Listchars
-set listchars=tab:→\ ,eol:$,
+set list
+set listchars=tab:→\ ,eol:¬
+set scrolloff=5
 
 " Printing
 set printoptions=paper:A4,portrait:n,duplex:short,wrap:y,number:n,syntax:n,left:5pc
