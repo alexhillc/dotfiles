@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ################ GENERAL STUFF ########################
-
 # Sets a really fast key repeat
 defaults write NSGlobalDomain KeyRepeat -int 0
 
@@ -28,7 +27,6 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 #######################################################
 
 ################ FINDER PREFERENCES ###################
-
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
 

@@ -4,31 +4,22 @@ echo "Installing brew/cask applications"
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
-# Install brew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 # Install brew packages
 brew install zsh
-brew install git
 brew install wget
 brew install sleepwatcher
 brew install mosh
-brew install maven
-brew install mysql
 brew install caskroom/cask/brew-cask
 
 brew tap phinze/cask
 
 # Install brew cask packages
 brew cask install alfred
-brew cask install clamxav
 brew cask install dropbox
 brew cask install eclipse-java
 brew cask install hex-fiend
-brew cask install java
 brew cask install macvim
 brew cask install mailbox
-brew cask install private-internet-access
 brew cask install rdio
 brew cask install sequel-pro
 brew cask install skype

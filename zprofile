@@ -1,5 +1,5 @@
 # Set umask for permissions
-umask 027
+#umask 027
 
 # User configuration
 MYSQL_HOME=/usr/local/mysql
