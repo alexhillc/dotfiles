@@ -1,6 +1,3 @@
-# Set umask for permissions
-#umask 027
-
 # User configuration
 MYSQL_HOME=/usr/local/mysql
 PHP_HOME=/usr/local/php5

@@ -11,6 +11,3 @@ source $ZSH/oh-my-zsh.sh
 alias syslog="sudo tail -f /private/var/log/system.log"
 alias mergelogs="cat \$(ls -tr ./log-*) > log-merged.txt"
 alias log="git log --no-merges --format=%B"
-alias webstrap="~/.web-bootstrap/bootstrap.sh"
-alias yakko="ssh zyrge@yakko.cs.wmich.edu"
-alias wmich="ssh npd1621@login.cs.wmich.edu"
