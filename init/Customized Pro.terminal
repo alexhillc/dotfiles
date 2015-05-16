@@ -64,9 +64,9 @@
 	dHmEjZWYobO2uwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC9
 	</data>
 	<key>name</key>
-	<string>Pro</string>
+	<string>Customized Pro</string>
 	<key>shellExitAction</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>

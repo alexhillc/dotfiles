@@ -16,7 +16,6 @@ echo "Installing brew/cask applications"
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
-
 # Install brew packages
 brew install ack
 brew install zsh
@@ -49,5 +48,5 @@ brew cask install virtualbox
 brew cask install vlc
 
 echo "Programs unable to install with brew-cask:"
-echo "Intuit Mint QuickView, CleanMyMac 3, 1Password (Mac Store)"
+echo "Intuit Mint QuickView, 1Password (Mac Store)"
 echo "Transmit, Telegram (may be updated for brew-cask)"
