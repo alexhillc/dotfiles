@@ -140,14 +140,8 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
-# Enable highlight hover effect for the grid view of a stack (Dock)
-defaults write com.apple.dock mouse-over-hilite-stack -bool true
-
 # Set the icon size of Dock items to 42 pixels
 defaults write com.apple.dock tilesize -int 42
-
-# Change minimize/maximize window effect
-defaults write com.apple.dock mineffect -string "scale"
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool true
