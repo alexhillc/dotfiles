@@ -164,7 +164,7 @@ defaults write com.apple.dock show-process-indicators -bool true
 defaults write com.apple.dock persistent-apps -array
 
 # Don’t animate opening applications from the Dock
-defaults write com.apple.dock launchanim -bool false
+defaults write com.apple.dock launchanim -bool true
 
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
@@ -178,14 +178,6 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Don’t show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool true
-
-# Don’t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false
-
-# Remove the auto-hiding Dock delay
-defaults write com.apple.dock autohide-delay -float 0
-# Remove the animation when hiding/showing the Dock
-defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
@@ -231,12 +223,34 @@ defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
 
-################ APPLESCRIPT OS X PREFS ###############
-osascript applescript/appearanceprefs.scpt
-osascript applescript/securityprefs.scpt
-osascript applescript/desktopprefs.scpt
-osascript applescript/screensaverprefs.scpt
+###############################################################################
+# SizeUp.app                                                                  #
+###############################################################################
 
+# Start SizeUp at login
+defaults write com.irradiatedsoftware.SizeUp StartAtLogin -bool true
+
+# Don’t show the preferences window on next start
+defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
+
+################################################################################
+# Terminal settings
+################################################################################
+chsh -s /bin/zsh
+
+################ APPLESCRIPT OS X PREFS ###############
+osascript -e 'tell application "System Events"
+	tell appearance preferences
+		set dark mode to true
+	end tell
+end tell'
+
+osascript -e 'tell application "System Events"
+	tell screen saver preferences
+		set delay interval to 0
+		set show clock to false
+	end tell
+end tell'
 #######################################################
 
-echo "Restart required to implement changes"
+echo "Restart required to implement some of these changes"
