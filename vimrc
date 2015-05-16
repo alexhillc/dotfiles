@@ -1,4 +1,4 @@
-" Color scheme
+" Use the molokai theme
 colorscheme molokai
 
 " Automatically reload files
@@ -57,7 +57,7 @@ filetype plugin indent on
 
 " Listchars
 set list
-set listchars=tab:→\ ,eol:¬
+set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set scrolloff=5
 
 " Printing
