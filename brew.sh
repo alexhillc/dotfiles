@@ -41,6 +41,7 @@ brew cask install sequel-pro
 brew cask install sizeup
 brew cask install slack
 brew cask install skype
+brew cask install sourcetree
 brew cask install subler
 brew cask install sublime-text
 brew cask install transmission
