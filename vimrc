@@ -61,7 +61,7 @@ set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set scrolloff=5
 
 " Printing
-set printoptions=paper:A4,portrait:n,duplex:short,wrap:y,number:n,syntax:n,left:5pc
+set printoptions=paper:A4,portrait:n,duplex:short,wrap:y,number:n,syntax:y,left:5pc
 
 " Strip trailing whitespace
 fun! <SID>StripTrailingWhitespaces()

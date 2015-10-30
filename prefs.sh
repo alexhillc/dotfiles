@@ -169,9 +169,6 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
-# Make Dock icons of hidden applications translucent
-defaults write com.apple.dock showhidden -bool true
-
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
 #defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
@@ -210,28 +207,12 @@ defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
 
-###############################################################################
-# SizeUp.app                                                                  #
-###############################################################################
-
-# Start SizeUp at login
-defaults write com.irradiatedsoftware.SizeUp StartAtLogin -bool true
-
-# Don’t show the preferences window on next start
-defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
-
 ################################################################################
 # Terminal settings
 ################################################################################
 chsh -s /bin/zsh
 
 ################ APPLESCRIPT OS X PREFS ###############
-osascript -e 'tell application "System Events"
-	tell appearance preferences
-		set dark mode to true
-	end tell
-end tell'
-
 osascript -e 'tell application "System Events"
 	tell screen saver preferences
 		set delay interval to 0

@@ -20,30 +20,26 @@ echo  '\n'
 brew install ack
 brew install zsh
 brew install wget
-brew install sleepwatcher
-brew install mosh
 brew install caskroom/cask/brew-cask
 
 brew tap phinze/cask
 
 # Install brew cask packages
 brew cask install alfred
-brew cask install bittorrent-sync
 brew cask install cleanmymac
 brew cask install dropbox
 brew cask install eclipse-java
 brew cask install hex-fiend
 brew cask install imageoptim
 brew cask install macvim
-brew cask install mailbox
 brew cask install rdio
 brew cask install sequel-pro
-brew cask install sizeup
 brew cask install slack
 brew cask install skype
 brew cask install sourcetree
+brew cask install spectacle
 brew cask install subler
-brew cask install sublime-text
+brew cask install steam
 brew cask install transmission
 brew cask install virtualbox
 brew cask install vlc
