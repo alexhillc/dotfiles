@@ -6,10 +6,10 @@
 sudo nvram SystemAudioVolume=" "
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "mako"
-sudo scutil --set HostName "mako"
-sudo scutil --set LocalHostName "mako"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "mako"
+sudo scutil --set ComputerName "Alex's MacBook Pro"
+sudo scutil --set HostName "Alex's MacBook Pro"
+sudo scutil --set LocalHostName "Alex's MacBook Pro"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Alex's MacBook Pro"
 
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true

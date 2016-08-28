@@ -6,10 +6,4 @@ plugins=(git)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-
-# aliases
-alias syslog="sudo tail -f /private/var/log/system.log"
-alias mergelogs="cat \$(ls -tr ./log-*) > log-merged.txt"
-alias log="git log --no-merges --format=%B"
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
