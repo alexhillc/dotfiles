@@ -26,18 +26,19 @@ brew tap phinze/cask
 
 # Install brew cask packages
 brew cask install alfred
+brew cask install battle-net
 brew cask install cleanmymac
 brew cask install dropbox
-brew cask install eclipse-java
-brew cask install hex-fiend
-brew cask install imageoptim
+brew cask install fantastical
 brew cask install macvim
-brew cask install rdio
-brew cask install sequel-pro
+brew cask install postbox
+brew cask install postman
+brew cask install reveal
 brew cask install slack
 brew cask install skype
 brew cask install sourcetree
 brew cask install spectacle
+brew cask install spotify
 brew cask install subler
 brew cask install steam
 brew cask install transmission
@@ -45,5 +46,5 @@ brew cask install virtualbox
 brew cask install vlc
 
 echo "Programs unable to install with brew-cask:"
-echo "Intuit Mint QuickView, 1Password (Mac Store)"
+echo "1Password (Mac Store)"
 echo "Transmit, Telegram (may be updated for brew-cask)"
