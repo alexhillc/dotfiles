@@ -36,6 +36,7 @@ brew cask install postman
 brew cask install reveal
 brew cask install slack
 brew cask install skype
+brew cask install sonos
 brew cask install sourcetree
 brew cask install spectacle
 brew cask install spotify
